@@ -1,0 +1,247 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Siggraph 2016</title>
+		<style>
+			@font-face {
+					font-family: "Sanchez";
+					src: url(Sanchez-Regular.ttf);
+			}
+
+			@font-face {
+					font-family: "Sanchez";
+					font-style: italic;
+					src: url(Sanchez-Italic.ttf);
+			}
+
+			html, body {
+				width: 100%;
+				height: 100%;
+			}
+
+			body {
+				margin: 0;
+				padding: 0;
+
+				color: #aaa;
+
+				font-size: 30px;
+				font-family: "Sanchez";
+
+				background-color: #000;
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			td:hover{
+				color: #fff;
+			}
+
+			a {
+				color: #48f;
+				text-decoration: none;
+			}
+
+			strong {
+				color: #fff;
+			}
+
+			h1 {
+				color: #fff;
+				margin: 20px;
+			}
+
+			h2 {
+				color: #fff;
+				font-size: 40px;
+				margin: 24px;
+			}
+
+			img {
+				max-width: 100%;
+			}
+
+			pre {
+				padding: -20px -40px !important;
+				font-size: 20px;
+				text-align: left;
+			}
+
+			iframe {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+
+			section {
+				text-align: center;
+			}
+
+				section.background-image {
+					width: 100%;
+					height: 100%;
+					background-repeat: no-repeat;
+					background-position: 50%;
+					background-size: contain;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+			table {
+				margin: auto;
+				position: relative;
+			}
+
+			td {
+				padding: 0px 10px;
+				font-size: 30px;
+				text-align: center;
+			}
+
+			#controls {
+				position: absolute;
+				padding: 5px;
+				left: calc(50% - 100px);
+				bottom: 4px;
+				width: 200px;
+				font-size: 16px;
+				opacity: 0.2;
+				text-align: center;
+				transition: opacity 0.5s;
+				background-color: #000;
+				z-index: 1;
+			}
+
+			#controls:hover {
+				opacity: 0.8;
+			}
+
+			#controls span {
+				margin: 2px;
+				padding: 2px 10px;
+				color: #fff;
+			}
+		</style>
+		<link rel="stylesheet" href="prism.css" data-noprefix />
+	</head>
+	<body>
+		<section>
+			<h1>three.js</h1>
+			<a href="http://threejs.org">http://threejs.org</a>
+		</section>
+		<section>
+			<h2>Open Source JavaScript 3D Library</h2>
+		</section>
+		<section>
+			<h1>6th year</h1>
+		</section>
+		<section>
+			<h1>New Features</h1>
+		</section>
+		<section>
+			<h2>Proper Shadows</h2>
+			<a href="https://github.com/mrdoob">@mrdoob</a> + <a href="https://github.com/CypD">@CypD</a>
+		</section>
+		<section>
+			<iframe src="files/examples/webgl_lights_spotlights_.html" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<iframe src="files/examples/webgl_lights_spotlights.html" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<h2>PointLight Shadows</h2>
+			<a href="https://github.com/mkkellogg">@mkkellogg</a> + <a href="https://github.com/tschw">@tschw</a>
+		</section>
+		<section>
+			<iframe src="http://rawgit.com/mrdoob/three.js/r79/examples/webgl_shadowmap_pointlight.html" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<h2>Physically Based Materials</h2>
+			<a href="https://github.com/bhouston">@bhouston</a> + <a href="https://github.com/WestLangley">@WestLangley</a>
+		</section>
+		<section>
+			<iframe src="http://rawgit.com/mrdoob/three.js/r79/examples/webgl_materials_standard.html" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<h2>ES2015 Modules</h2>
+			<a href="https://github.com/Rich-Harris">@Rich-Harris</a>
+		</section>
+		<section>
+			<h1>Featured Projects</h1>
+		</section>
+		<section>
+			<iframe src="https://www.youtube.com/embed/LPd0w3pVQVI?autoplay=true&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<iframe src="https://kamra.invisi-dir.com/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<!--
+		<section>
+			<iframe src="https://virtualart.chromeexperiments.com/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<iframe src="http://hands.wtf/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		-->
+		<section>
+			<iframe src="http://www.nowyouseeme.movie/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<!--
+		<section>
+			<iframe src="https://www.nrk.no/fuglefjellet-1.12984757" frameborder="0" allowfullscreen></iframe>
+		</section>
+		-->
+		<section>
+			<iframe src="http://swissarmyman.com/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<iframe src="https://masteredfromchaos.com/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<!--
+		<section>
+			<iframe src="https://aframe.io/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		-->
+		<section>
+			<h1>Editor</h1>
+		</section>
+		<section>
+			<iframe src="http://rawgit.com/mrdoob/three.js/r79/editor/index.html" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<a href="http://mrdoob.neocities.org/" target="_blank">http://mrdoob.neocities.org/</a>
+		</section>
+		<section>
+			<iframe src="http://mrdoob.neocities.org/" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<h1>WebVR Extension</h1>
+		</section>
+		<section>
+			<iframe src="http://rawgit.com/mrdoob/three.js/r79/examples/index.html?q=webvr" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<img src="files/webvr-emulator.png" style="height:100%"/><br/>
+		</section>
+		<section>
+			<iframe src="http://rawgit.com/mrdoob/three.js/r79/examples/index.html?q=webvr" frameborder="0" allowfullscreen></iframe>
+		</section>
+		<section>
+			<h1><a href="http://rawgit.com/mrdoob/three.js/r79/editor/index.html" target="_blank">Editor + WebVR</a></h1>
+		</section>
+		<section>
+			<h1>Thanks!</h1>
+			<a href="https://twitter.com/mrdoob">@mrdoob</a>
+		</section>
+
+		<script src="prism.js" data-></script>
+		<script src="prism-glsl.js" data-></script>
+		<script src="slides.js"></script>
+	</body>
+</html>
